@@ -1,0 +1,49 @@
+.app-footer {
+  margin: 0 auto;
+  margin-top: 52px;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  text-align: center;
+  
+  
+  }
+  
+ li {
+  list-style-type: none;
+  margin: 0;
+  margin: 0 20px;
+   font-family: Merienda;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 17px;
+margin-bottom: 30px;
+
+color: #000000;
+ } 
+
+ .coffeeB {
+  margin: -20px -20px 0 0 !important;
+ }
+
+ .line {
+   width: 200px;
+   background: none;
+   display: flex;
+   justify-content: center;
+   height: 30px;
+ }
+
+ hr {
+   margin-bottom: 35px;
+   width: 60px;
+   height: 1px;
+   border: none;
+   background-color: #000000;
+ }
+
+ .line img {
+   margin: 0 25px
+ }
+  

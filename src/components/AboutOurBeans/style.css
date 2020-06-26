@@ -1,0 +1,78 @@
+.about_beans{
+  margin: 0 auto;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  width: 630px;
+  
+}
+
+.about_beans img {
+  width: 272px;
+  height: 355px;
+}
+
+.text {
+  margin: 0 auto;
+  background-image: none !important;
+  width: 350px;
+  text-align: center;
+  margin-left: 80px;
+}
+
+.text h2 {
+  font-family: Merienda;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+
+color: #000000;
+}
+
+.text p {
+  font-family: Merienda;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+text-align: center;
+
+color: #000000;
+}
+
+
+
+.line {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px !important;
+  width: 200px;
+  background: none;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+
+hr {
+  margin-bottom: 35px;
+  width: 60px;
+  height: 1px;
+  border: none;
+  background-color: #000000;
+}
+
+.line img {
+  width: 30px;
+  height: 30px;
+  margin: 0 25px
+}
+
+
+
+.bottom_line {
+  margin-top: 57px;
+  margin-bottom: 30px !important;
+  width: 240px;
+  height: 1px;
+  border: none;
+  background-color: #000000;
+}

@@ -1,0 +1,30 @@
+.app-header {
+  display: flex;
+  justify-content: start;
+  position: absolute;
+  top: 52px;
+  left: 148px;
+  }
+  
+ .app-header li {
+   margin: 0;
+   margin-right: 40px;
+   list-style-type: none;
+   font-family: Merienda;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  color: #FFFFFF;
+ } 
+
+ .coffee {
+  margin: -20px 0 0 0 !important;
+ }
+  
+.app-header a {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+ 

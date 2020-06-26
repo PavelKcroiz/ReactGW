@@ -1,0 +1,52 @@
+.about{
+  margin: 0 auto;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  background: none;
+
+  width: 589px;
+  
+}
+
+.about h1 {
+  padding-top: 80px;
+  font-style: normal;
+  font-weight: normal;
+  font-family: Merienda;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000 ;
+ 
+}
+
+.about p {
+  font-style: normal;
+  font-weight: normal;
+  font-family: Merienda;
+font-size: 14px;
+line-height: 20px;
+color: #000000 ;
+}
+
+.line {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 200px;
+  background: none;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+
+hr {
+  margin-bottom: 35px;
+  width: 60px;
+  height: 1px;
+  border: none;
+  background-color: #000000;
+}
+
+.line img {
+  margin: 0 25px
+}

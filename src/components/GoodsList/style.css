@@ -1,0 +1,49 @@
+
+.coffee_list {
+  padding: 0;
+  margin: 0 auto;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.coffee_list li {
+  margin: 30px 35px;
+  background-color: #fff;
+  height: 240px;
+  width: 220px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.coffee_list li img {
+  width: 167px;
+  height: 115px;
+  padding: 22px 35px 0 34px
+}
+
+.coffee_list li p {
+  margin: 0;
+  padding-top: 14px;
+  font-family: Merienda;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+padding-right: 22px;
+text-align: right;
+color: #000000;
+}
+
+.coffee_list span {
+  display: block;
+  margin-top: 14px;
+  padding-right: 22px;
+  font-family: Merienda;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+text-align: right;
+
+color: #000000;
+}

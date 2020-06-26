@@ -1,0 +1,34 @@
+.filter{
+    width: 326px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter button{
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border: none;
+    background-color: #fff;
+    width: 75px;
+    padding: 0;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    outline: none;
+}
+
+.filter :nth-child(2){
+    border-radius: 4px 0px 0px 4px;
+    margin-left: 35px;
+}
+
+.filter :last-child{
+    border-radius: 0px 4px 4px 0px;
+}
+
+.active {
+    background-color: chartreuse !important;
+  }

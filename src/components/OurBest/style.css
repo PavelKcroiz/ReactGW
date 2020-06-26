@@ -1,0 +1,66 @@
+.our_best {
+  background-image: url(/images/paper-1074131_1920.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 495px;
+  margin-top: 100px;
+}
+
+.our_best h1 {
+  padding-top: 80px;
+
+  font-family: Merienda;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 35px;
+text-align: center;
+
+color: #000000;
+}
+
+.our_best ul {
+  padding-top: 40px;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.our_best ul li {
+  margin: 0 35px;
+  background-color: #fff;
+  height: 240px;
+  width: 220px;
+  border-radius: 8px;
+}
+
+.our_best ul li img {
+  width: 151px;
+  height: 130px;
+  padding: 22px 35px 0 34px
+}
+
+.our_best ul li p {
+  margin: 0;
+  padding-top: 14px;
+  padding-right: 22px;
+  font-family: Merienda;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+text-align: right;
+color: #000000;
+}
+
+.our_best span {
+  display: block;
+  margin-top: 10px;
+  padding-right: 22px;
+  font-family: Merienda;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+text-align: right;
+
+color: #000000;
+}

@@ -1,0 +1,21 @@
+
+.page2{
+  margin: 0 auto;
+  height: 260px;
+  text-align: center;
+  background-image: url(/images/coffee-shop-1209863_1920.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 112px;
+  font-family: Merienda;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 58px;
+
+color: #FFFFFF;
+}

@@ -1,0 +1,23 @@
+.search_filter{
+  margin: 0 auto;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.search_filter p{
+  font-family: Merienda;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000;
+  text-shadow: none;
+  margin: 0;
+}
+
+.active {
+  background-color: chartreuse;
+}
