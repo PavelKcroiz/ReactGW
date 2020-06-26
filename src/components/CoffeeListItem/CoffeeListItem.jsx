@@ -1,7 +1,7 @@
 import React from "react";
 
 const CoffeeListItem = (props) => {
-  const { title, index } = props;
+  const { title } = props;
 
   return (
     <li>
