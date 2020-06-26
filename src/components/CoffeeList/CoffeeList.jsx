@@ -13,7 +13,6 @@ const CoffeeList = (props) => {
           <CoffeeListItem
             title={title}
             coffeeItem={coffeeItem}
-            index={index}
             key={index}
           />
         </Link>
