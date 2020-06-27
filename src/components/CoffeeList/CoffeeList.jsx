@@ -9,12 +9,8 @@ const CoffeeList = (props) => {
   return (
     <ul className="coffee_list">
       {visibleCoffee.map((title, index) => (
-        <Link to={`/coffee/${index}`}>
-          <CoffeeListItem
-            title={title}
-            coffeeItem={coffeeItem}
-            key={index}
-          />
+        <Link key={index} to={`/coffee/:${index}`}>
+          <CoffeeListItem title={title} coffeeItem={coffeeItem} />
         </Link>
       ))}
     </ul>

@@ -10,7 +10,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 class App extends React.Component {
   state = {
     filterArray: require("./db.json").coffee,
-    searchvalue: "",
     array: require("./db.json").coffee,
     filter: "All",
   };
@@ -24,6 +23,14 @@ class App extends React.Component {
           filter: name,
         };
     });
+  };
+
+  getCoffeeId = (item) => {
+    let id;
+    this.state.array.forEach((elem, index) => {
+      if (item.name === elem.name) id = index;
+    });
+    return id;
   };
 
   searchFunc = (event) => {
@@ -60,7 +67,12 @@ class App extends React.Component {
         <Header />
         <Route
           path="/"
-          render={() => <MainPage bestsellers={bestsellers} />}
+          render={() => (
+            <MainPage
+              bestsellers={bestsellers}
+              getCoffeeId={this.getCoffeeId}
+            />
+          )}
           exact
         />
         <Route

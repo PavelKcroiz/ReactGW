@@ -6,7 +6,6 @@ const AboutItem = (props) => {
   const { id } = props;
   const data = require("../../db.json");
   const item = data.coffee[id];
-  console.log(item);
 
   return (
     <div className="about_item">

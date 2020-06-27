@@ -46,4 +46,12 @@ color: #000000;
  .line img {
    margin: 0 25px
  }
+
+ .app-footer a {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  color: #000000;
+}
+ 
   

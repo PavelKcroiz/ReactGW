@@ -64,3 +64,9 @@ text-align: right;
 
 color: #000000;
 }
+
+.our_best a {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
